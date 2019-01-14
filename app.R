@@ -84,8 +84,10 @@ ui <- navbarPage(
              After completing the next phases, you will be able to download your answers
              as a JSON file showing the format in which they would be saved in real use.'),
                     tags$hr(),
-                    tags$i('This demo is built by Arttu Kosonen for the course Transport Modelling 
-                           (SPT-E4010) at Aalto University in Spring 2019.'),
+                    tags$i('This demo is built by Arttu Kosonen for the course Transport Modelling
+                           (SPT-E4010) at Aalto University in spring 2019.
+                              Source code is available on',
+                           a(href='https://github.com/keripukki/travelsurveydemo', 'GitHub'), '.'),
                     tags$hr(),
                     tags$strong('Notes:'),
                     tags$li('Downloading results as JSON at the end is not yet really implemented'),
