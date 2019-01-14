@@ -37,3 +37,6 @@ rsconnect/
 
 # Data files
 data/
+
+# Directory file
+.directory
