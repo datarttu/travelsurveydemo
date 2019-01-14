@@ -39,4 +39,4 @@ rsconnect/
 data/
 
 # Directory file
-.directory
+*.directory
