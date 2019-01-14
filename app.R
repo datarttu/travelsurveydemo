@@ -88,6 +88,7 @@ ui <- navbarPage(
                            (SPT-E4010) at Aalto University in Spring 2019.'),
                     tags$hr(),
                     tags$strong('Notes:'),
+                    tags$li('Downloading results as JSON at the end is not yet really implemented'),
                     tags$li('Trips do not appear in the most intuitive way at the moment:
                             they could be separate entities between activities'),
                     tags$li('Instead of or alternatively to giving an address for each activity
@@ -193,8 +194,8 @@ Try to remember the locations of your activities as accurately as you can,
                            downloadButton(outputId='saveJson',
                                           label='Download data as JSON')),
                     column(8,
-                           p('You can download your answer data as JSON on the left.
-                             In this version, the data is not saved on the server.'))),
+                           HTML('<p><strike>You can download your answer data as JSON on the left.</strike>
+                             In this version, the data is not saved on the server.</p>'))),
            fluidRow(
              actionButton('prevFromFinal', 'Previous')
            )
